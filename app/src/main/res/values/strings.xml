@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Classical Indian Music Tickets</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="txtDescription">About Classical music</string>
+    <string name="txtSitar">Indian classical music has two foundational elements, raga and tala.
+        The raga forms the fabric of a melodic structure, while the tala measures the time cycle.
+        There is no concept of harmony in Indian classical music. Tabla and Sitar are two most beautiful Classical Music Instrument</string>
+    <string name="txtTabla">The raga gives an artist a palette to build the melody from sounds, while the tala provides them with a creative framework for rhythmic improvisation using time. The tal is provided by Tabla, one of the oldest type of percussion instrument, while the sitar is one of the oldest instrument for raga.</string>
+    <string name="txtTitle">Reserve your Classical Music Concert</string>
+    <string name="btnDate">Select a date </string>
+    <string name="btnBig">"Book your concert ticket "</string>
+    <string name="txtPlayTabla">Play Tabla</string>
+    <string name="txtPlaySitar">Play Sitar</string>
+
+    <string-array name="txtGroup">
+        <item> 12 pm to 1pm</item>
+        <item> 2 pm to 3 pm</item>
+        <item> 4 pm to 5 pm</item>
+    </string-array>
+    <string name="btnPlay">Play Sample Music</string>
+</resources>

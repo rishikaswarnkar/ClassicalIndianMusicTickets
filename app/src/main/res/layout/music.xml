@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imgSitar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/txtDescription"
+            android:padding="15dp"
+            android:src="@drawable/sitar" />
+        <ImageView
+            android:id="@+id/imgTabla"
+            android:contentDescription="@string/txtDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/tabla"
+            android:padding="15dp"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtTabla"
+            android:textSize="24sp" />
+
+            />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/btnSample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="11dp"
+            android:text= "@string/btnPlay"
+            />
+    </TableRow>
+</TableLayout>

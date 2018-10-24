@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".music">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+        <TableRow>
+            <ImageView
+                android:id="@+id/imgSitar"
+                android:layout_width="163dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/txtDescription"
+                android:padding="15dp"
+                android:src="@drawable/sitar" />
+            <Button
+                android:id="@+id/btnPlaySitar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="11dp"
+                android:text="@string/txtPlaySitar" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imgTabla"
+                android:layout_width="84dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/txtDescription"
+                android:padding="15dp"
+                android:src="@drawable/tabla" />
+            <Button
+                android:id="@+id/btnPlayTabla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="11dp"
+                android:text="@string/txtPlayTabla" />
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
